@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Your description goes here">
+	<meta name="keywords" content="one, two, three">
+
+	<title>Game of Trivia</title>
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i" rel="stylesheet">
+
+	<link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+	<div id="container">
+		<header>
+			<img src="images/got.svg" class="headerImg" />
+			<h1><span class="title">A Song of Fire and Ice</span> trivia game.</h1>
+		</header>
+		<section class="question">
+			<h2><span class="num">1&ensp;</span>&ensp;What is the name of Jon Snow’s Valyrian steel sword?</h2>
+			<a class="wrong button">Heartsbane</a>
+			<a class="correct button">Longclaw</a>
+			<a class="wrong button">Oathkeeper</a>
+			<a class="wrong button">Ice</a>
+		</section>
+		<section class="question">
+			<h2><span class="num">2&ensp;</span>&ensp;What is the family motto of the Lannister’s?</h2>
+			<a class="wrong button">Ours is the fury</a>
+			<a class="wrong button">A Lannister always pays his debts</a>
+			<a class="wrong button">Unbowed, unbent, unbroken</a>
+			<a class="correct button">Hear me roar</a>
+		</section>
+		<section class="question">
+			<h2><span class="num">3&ensp;</span>&ensp;How many times has Beric Dondarrion been brought back to life?</h2>
+			<a class="wrong button">Three</a>
+			<a class="wrong button">Five</a>
+			<a class="correct button">Six</a>
+			<a class="wrong button">Eight</a>
+		</section>
+		<section class="question">
+			<h2><span class="num">4&ensp;</span>&ensp;Which of these is NOT one of Daenerys Targaryen’s dragons?</h2>
+			<a class="wrong button">Drogon</a>
+			<a class="correct button">Balerion</a>
+			<a class="wrong button">Rhaegal</a>
+			<a class="wrong button">Viserion</a>
+		</section>
+		<section class="question" id="q5">
+			<h2><span class="num">5&ensp;</span>&ensp;Where does Arya train with the Faceless Men?</h2>
+			<a class="correct button">The House of Black and White</a>
+			<a class="wrong button">The House of the Undying</a>
+			<a class="wrong button">The Red Temple of Myr</a>
+			<a class="wrong button">The Citadel</a>
+		</section>
+		<section class="score">
+			<h3 id="score"></h3>
+			<div class="clearfix displayNone padding15" id="5scoreWrapper">
+				<img src="images/lyanna.png" class="alignleft imgMax scoreIMG" />
+				<div class="alignleft scoreQuote">
+					<h4>
+						You’ve proven that you fight with the strength of ten mainlanders
+					</h4>
+				</div>
+			</div>
+
+			<div class="clearfix displayNone padding15" id="4scoreWrapper">
+				<img src="images/tyrion.png" class="alignleft imgMax scoreIMG" />
+				<div class="alignleft scoreQuote">
+					<h4>
+						It’s not easy watching Game of Thrones all the time. If it were easy, everyone would do it.
+					</h4>
+				</div>
+			</div>
+
+			<div class="clearfix displayNone padding15" id="3scoreWrapper">
+				<img src="images/jamie.png" class="alignleft imgMax scoreIMG" />
+				<div class="alignleft scoreQuote">
+					<h4>
+						Three victories don't make you a conqueror.
+					</h4>
+				</div>
+			</div>
+
+			<div class="clearfix displayNone padding15" id="2scoreWrapper">
+				<img src="images/dany.png" class="alignleft imgMax scoreIMG" />
+				<div class="alignleft scoreQuote">
+					<h4>
+						You are no dragon. Fire cannot kill a dragon.
+					</h4>
+				</div>
+			</div>
+
+			<div class="clearfix displayNone padding15" id="1scoreWrapper">
+				<img src="images/jon.png" class="alignleft imgMax scoreIMG" />
+				<div class="alignleft scoreQuote">
+					<h4>
+						You know nothing, Jon Snow.
+					</h4>
+				</div>
+			</div>
+
+			<div class="clearfix displayNone padding15" id="0scoreWrapper">
+				<img src="images/cersei.png" class="alignleft imgMax scoreIMG" />
+				<div class="alignleft scoreQuote">
+					<h4>
+						I wonder if you’re the worst person I’ve ever met.
+					</h4>
+				</div>
+			</div>
+		</section>
+		<footer>
+
+		</footer>
+	</div>
+	<!-- #container -->
+</body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="script/script.js"></script>
+
+</html>
